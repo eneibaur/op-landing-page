@@ -7,9 +7,30 @@ body {
     flex-direction: column;
 }
 
+/* for diagnostic purposes only */
 div {
     border: 2px solid red;
     min-height: 10px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-links, .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
 }
 
 img {
