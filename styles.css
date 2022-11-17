@@ -21,16 +21,24 @@ div {
 .header-links, .links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 26px;
 }
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 ul {
     margin: 0;
     padding: 0;
-
+    list-style-type: none;
 }
 
 img {
