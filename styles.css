@@ -28,6 +28,14 @@ div {
     padding: 10px 10%;
 }
 
+.cards {
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+}
+
 #splash-left, #splash-right {
     flex: 1 1 50%;
 }
@@ -36,6 +44,10 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+div.testimonial {
+    background-color: #e5e7eb;
 }
 
 .logo {
@@ -56,5 +68,8 @@ ul {
 
 img {
     max-width: 300px;
+    width: auto;
     height: auto;
+    border: #1F2937 solid 3px;
+    border-radius: 7%;
 }
