@@ -20,6 +20,12 @@ div {
     color: white;
 }
 
+.footer {
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
 .header-links, .links, .splash, .cards, .cta, ul {
     display: flex;
     justify-content: space-between;
@@ -53,7 +59,7 @@ div.testimonial {
 div.cta {
     background-color: #3882f6;
     color: white;
-    padding: 0 10%;
+    padding: 20px 10%;
     border-radius: 7px;
 }
 
