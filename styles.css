@@ -28,6 +28,10 @@ div {
     padding: 10px 10%;
 }
 
+#splash-left, #splash-right {
+    flex: 1 1 50%;
+}
+
 .random-info, .testimonial {
     display: flex;
     flex-direction: column;
