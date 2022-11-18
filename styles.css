@@ -9,12 +9,12 @@ body {
 
 .header, .footer {
     background-color: #1F2937;
+    padding: 20px 0px;
     color: white;
 }
 
 .footer {
     text-align: center;
-    padding: 25px;
     box-sizing: border-box;
 }
 
@@ -24,6 +24,15 @@ body {
     align-items: center;
     gap: 30px;
     margin: 0 10%;
+}
+
+.splash {
+    margin: 50px 10%;
+}
+
+#splash-right {
+    display: flex;
+    justify-content: center;
 }
 
 .cards {
