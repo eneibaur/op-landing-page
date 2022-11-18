@@ -1,18 +1,10 @@
 * {
     font-family: roboto, sans-serif;
-    /* for diagnostics */
-    margin: 5px;
 }
 
 body {
     display: flex;
     flex-direction: column;
-}
-
-/* for diagnostic purposes only */
-div {
-    border: 2px solid red;
-    min-height: 10px;
 }
 
 .header, .footer {
@@ -54,6 +46,7 @@ div {
 
 div.testimonial {
     background-color: #e5e7eb;
+    padding: 50px;
 }
 
 div.cta {
@@ -61,6 +54,7 @@ div.cta {
     color: white;
     padding: 20px 10%;
     border-radius: 7px;
+    margin: 40px 10%;
 }
 
 .logo {
