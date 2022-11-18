@@ -18,11 +18,18 @@ div {
     color: white;
 }
 
-.header-links, .links, .splash, .cards, .cta {
+.header-links, .links, .splash, .cards, .cta, ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    padding: 0px 2rem;
+}
+
+.random-info, .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
