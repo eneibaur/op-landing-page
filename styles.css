@@ -1,5 +1,7 @@
 * {
     font-family: roboto, sans-serif;
+    /* for diagnostics */
+    margin: 5px;
 }
 
 body {
@@ -23,7 +25,7 @@ div {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    padding: 0px 10%;
+    padding: 10px 10%;
 }
 
 .random-info, .testimonial {
