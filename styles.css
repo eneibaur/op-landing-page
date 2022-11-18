@@ -23,7 +23,7 @@ div {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    padding: 0px 2rem;
+    padding: 0px 10%;
 }
 
 .random-info, .testimonial {
@@ -49,6 +49,6 @@ ul {
 }
 
 img {
-    width: 100px;
+    max-width: 300px;
     height: auto;
 }
