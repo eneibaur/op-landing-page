@@ -5,6 +5,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header, .footer {
@@ -41,6 +43,11 @@ body {
 
 .card {
     width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 #splash-left, #splash-right {
@@ -59,6 +66,10 @@ h2 {
 div.testimonial {
     background-color: #e5e7eb;
     padding: 50px 20%;
+}
+
+div.random-info {
+    margin: 50px 0px;
 }
 
 .quote {
